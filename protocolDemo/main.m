@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Boss.h"
+#import "Secretary.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSString *bossName = @"boss1";
+
+        Secretary *secretary = [[Secretary alloc] init];
+        Boss *boss = [[Boss alloc] initWithName:bossName whoDoThisThing:secretary];
+
+        [boss haveAMeeting];
+
+        NSLog(@"BOSSNAME = %@", boss.name);
     }
 
     return 0;

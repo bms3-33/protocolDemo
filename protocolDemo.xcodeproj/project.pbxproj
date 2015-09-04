@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		355993DB27DC1238B400ED6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3559904EC644901FECAFC132 /* main.m */; };
+		35599BCE4B6E0C273AE59721 /* Secretary.m in Sources */ = {isa = PBXBuildFile; fileRef = 35599415D344AB9A66AEC5A0 /* Secretary.m */; };
+		35599E49748E949DA39D0594 /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = 35599EDDAEB36A26377062E2 /* Boss.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,12 @@
 
 /* Begin PBXFileReference section */
 		3559904EC644901FECAFC132 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35599415D344AB9A66AEC5A0 /* Secretary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Secretary.m; sourceTree = "<group>"; };
+		3559958DA4133428AB530C2F /* Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		3559999652303CE95FAAB548 /* Meeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meeting.h; sourceTree = "<group>"; };
+		35599AB1CDD146CA99F8D957 /* Secretary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Secretary.h; sourceTree = "<group>"; };
 		35599D352A42C9F37B83120B /* protocolDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = protocolDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		35599EDDAEB36A26377062E2 /* Boss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				3559904EC644901FECAFC132 /* main.m */,
+				35599EDDAEB36A26377062E2 /* Boss.m */,
+				3559958DA4133428AB530C2F /* Boss.h */,
+				35599415D344AB9A66AEC5A0 /* Secretary.m */,
+				35599AB1CDD146CA99F8D957 /* Secretary.h */,
+				3559999652303CE95FAAB548 /* Meeting.h */,
 			);
 			path = protocolDemo;
 			sourceTree = "<group>";
@@ -113,6 +125,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				355993DB27DC1238B400ED6B /* main.m in Sources */,
+				35599E49748E949DA39D0594 /* Boss.m in Sources */,
+				35599BCE4B6E0C273AE59721 /* Secretary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
