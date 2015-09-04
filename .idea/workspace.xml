@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b6473b5-78ff-4190-bd42-85e34eeb119d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protocolDemo/Boss.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protocolDemo/Boss.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protocolDemo/Meeting.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protocolDemo/Secretary.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protocolDemo/Secretary.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocolDemo/main.m" afterPath="$PROJECT_DIR$/protocolDemo/main.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocolDemo.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/protocolDemo.xcodeproj/project.pbxproj" />
+    <list default="true" id="3b6473b5-78ff-4190-bd42-85e34eeb119d" name="Default" comment="first">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="protocolDemo.iws" />
@@ -48,8 +41,8 @@
       <file leaf-file-name="Boss.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protocolDemo/Boss.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53930134" vertical-offset="0" max-vertical-offset="458">
-              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.2838428" vertical-offset="0" max-vertical-offset="458">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -247,6 +240,13 @@
       <option name="number" value="Default" />
       <updated>1441363751634</updated>
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1441369879701</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1441369879701</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -265,7 +265,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32965517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -290,6 +290,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -460,8 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protocolDemo/Boss.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53930134" vertical-offset="0" max-vertical-offset="458">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.2838428" vertical-offset="0" max-vertical-offset="458">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
