@@ -12,14 +12,10 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSString *bossName = @"boss1";
-
         Secretary *secretary = [[Secretary alloc] init];
-        Boss *boss = [[Boss alloc] initWithName:bossName whoDoThisThing:secretary];
+        Boss *boss = [[Boss alloc] initWithWhoDoThisThing:secretary];
 
         [boss haveAMeeting];
-
-        NSLog(@"BOSSNAME = %@", boss.name);
     }
 
     return 0;

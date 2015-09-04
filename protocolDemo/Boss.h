@@ -9,11 +9,9 @@
 
 @interface Boss : NSObject
 
-@property NSString *name;
-
 @property id<Meeting> secretary;
 
-- (id) initWithName:(NSString *)givenName whoDoThisThing:(id<Meeting>) secretaryWhoDoingthis;
+- (id) initWithWhoDoThisThing:(id<Meeting>) secretaryWhoDoingthis;
 
 - (void) haveAMeeting;
 @end

@@ -9,14 +9,13 @@
 @implementation Boss {
 
 }
-@synthesize name,secretary;
+@synthesize secretary;
 
-- (id)initWithName:(NSString *)givenAName whoDoThisThing:(id <Meeting>)secretaryWhoDoingThis {
+- (id)initWithWhoDoThisThing:(id <Meeting>)secretaryWhoDoingThis {
 
     self = [super init];
 
     if (self){
-        name = givenAName;
         secretary = secretaryWhoDoingThis;
     }
 
