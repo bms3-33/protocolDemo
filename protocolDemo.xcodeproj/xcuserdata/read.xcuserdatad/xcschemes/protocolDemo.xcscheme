@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "35599E70452FE68E0B606404"
+               BuildableName = "protocolDemo"
+               BlueprintName = "protocolDemo"
+               ReferencedContainer = "container:protocolDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "35599E70452FE68E0B606404"
+            BuildableName = "protocolDemo"
+            BlueprintName = "protocolDemo"
+            ReferencedContainer = "container:protocolDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
