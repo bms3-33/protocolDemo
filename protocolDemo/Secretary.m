@@ -4,14 +4,12 @@
 //
 
 #import "Secretary.h"
-#import "Meeting.h"
-
 
 @implementation Secretary {
 
 }
 - (void)prepareForMeeting {
-    NSLog(@"会议准备");
+    NSLog(@"会议准备完毕！");
 }
 
 @end

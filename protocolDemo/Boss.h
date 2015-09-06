@@ -9,9 +9,10 @@
 
 @interface Boss : NSObject
 
-@property id<Meeting> secretary;
+@property id<Meeting> delegate;
 
-- (id) initWithWhoDoThisThing:(id<Meeting>) secretaryWhoDoingthis;
+//- (id) initWithWhoDoThisThing:(id<Meeting>) secretaryWhoDoingthis;
 
 - (void) haveAMeeting;
+
 @end

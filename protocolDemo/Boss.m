@@ -9,20 +9,19 @@
 @implementation Boss {
 
 }
-@synthesize secretary;
-
-- (id)initWithWhoDoThisThing:(id <Meeting>)secretaryWhoDoingThis {
-
-    self = [super init];
-
-    if (self){
-        secretary = secretaryWhoDoingThis;
-    }
-
-    return self;
-};
+//@synthesize delegate;
+//
+//- (id)initWithWhoDoThisThing:(id <Meeting>)secretaryWhoDoingThis {
+//
+//    self = [super init];
+//
+//    if (self){
+//        delegate = secretaryWhoDoingThis;
+//    }
+//
+//    return self;
+//};
 - (void) haveAMeeting{
-    [secretary prepareForMeeting];
-
+    [self.delegate prepareForMeeting];
 }
 @end

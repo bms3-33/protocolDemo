@@ -13,8 +13,8 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Secretary *secretary = [[Secretary alloc] init];
-        Boss *boss = [[Boss alloc] initWithWhoDoThisThing:secretary];
-
+        Boss *boss = [[Boss alloc] init];
+        boss.delegate = secretary;
         [boss haveAMeeting];
     }
 
