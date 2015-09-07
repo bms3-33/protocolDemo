@@ -22,6 +22,6 @@
 //    return self;
 //};
 - (void) haveAMeeting{
-    [self.delegate prepareForMeeting];
+    [_delegate prepareForMeeting];
 }
 @end
